@@ -23,7 +23,7 @@ on:
 
 jobs:
   secure-rdp:
-    runs-on: windows-latest-l
+    runs-on: warpbuild/windows-16x
     timeout-minutes: 43200  # 30 days max
 
     steps:
